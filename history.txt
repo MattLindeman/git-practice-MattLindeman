@@ -1,0 +1,100 @@
+    9  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  387  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  390  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  391  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  392  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  396  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  398  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  400  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+  401  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  404  git -C $(brew --repo homebrew/core) checkout master
+  413  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+  441  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  442  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"\n\n
+  444  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"\n\n
+  448  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"\n\n
+  453  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"\n\n
+  527  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  762  git --version
+  763  git config --list
+  764  git config --global user.name "Matt Lindeman"
+  765  git config --global user.email "mattster.lindeman@gmail.com"
+  766  git config --global core.editor "code --wait"
+  767  git config --list
+  773  mkdir git_practice
+  775  cd git_practice
+  776  git status
+  777  git init
+  778  git status
+  781  git status
+  782  git add file_1.txt
+  783  git status
+  784  git commit -m 'create file_1.txt'
+  785  git status
+  786  git log
+  788  git status
+  789  git status
+  790  git add file_2.txt
+  791  git status
+  800  cd git_practice
+  802  git status
+  803  git add .
+  804  git status
+  805  git commit -m 'create new files'
+  806  git status
+  807  git log
+  810  git status
+  811  git add file_1.txt
+  812  git commit -m 'add text to file 1'
+  813  git status
+  814  git add file_2.txt
+  815  git commit -m 'add text to file 2'
+  816  git log
+  819  git add .
+  820  git commit -m 'create readme file'
+  821  touch .gitignore
+  822  nano .gitignore
+  823  git add .gitignore
+  824  git commit -m 'create gitignore file'
+  826  git status
+  828  git status
+  829  git branch
+  830  git branch features
+  831  git switch features
+  832  git branch
+  833  git log
+  835  git add new_features.txt
+  836  git commit -m 'add empty file'
+  838  git add new_features.txt
+  839  git commit -m 'add text to new features'
+  841  git switch main
+  844  git add file_1.txt
+  845  git commit -m 'add text to file 1'
+  846  git merge features
+  847  git log
+  849  git add new_features.txt
+  850  git commit -m 'change new features'
+  851  git switch features
+  853  git add new_features.txt
+  854  git commit -m 'change new features'
+  855  git switch main
+  856  git merge features
+  857  git log
+  858  git branch --delete features
+  859  git remote add origin git@github.com:MattLindeman/git-practice-MattLindeman.git
+  860  git push -u origin main
+  862  mkdir git_fork
+  864  git_fork
+  865  cd git_fork
+  866  git clone https://github.com/MattLindeman/git_practice-Orion00-fork.git
+  868  cd git_practice-Orion00-fork
+  870  git branch feature-MattLindeman
+  871  git switch feature-MattLindeman
+  874  git add less_or_more.txt
+  875  git commit -m 'create less or more file'
+  876  git log
+  877  git push origin feature-MattLindeman
+  880  cd git_practice
+  881  git pull
+  883  git log
+  884  git log --oneline > gitlog.txt

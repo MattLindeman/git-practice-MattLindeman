@@ -1,0 +1,16 @@
+491b3dd Merge pull request #1 from Orion00/main
+27e2bab Add jokes.txt
+deebcc1 Update Readme.md
+d614e25 Merge branch 'features'
+58dbb99 change new features
+3846024 change new features
+67c9c06 Merge branch 'features'
+130cb6a add text to file 1
+d3046ae add text to new features
+eaefa7c add empty file
+9d04e69 create gitignore file
+9664b9f create readme file
+7e7dceb add text to file 2
+7c31f3d add text to file 1
+b836be9 create new files
+6ac2b2e create file_1.txt
